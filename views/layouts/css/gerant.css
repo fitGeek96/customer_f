@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:700");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* SIDEBAR CONTENT  */
+
+a {
+  display: block;
+  margin-left: 1rem;
+  text-decoration: none !important;
+  color: silver !important;
+}
+
+a:hover {
+  color: tomato !important;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 3rem;
+  word-spacing: 0.4rem;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: -2px 6px 3px rgba(0, 0, 0, 0.95);
+  font-size: 4rem !important;
+}
+
+h4 {
+  text-align: center;
+}
+
+i {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+span {
+  font-size: 1.2rem;
+  color: antiquewhite;
+}
+
+#form .row .cat {
+  font-size: 0.7rem;
+}
+
+.row {
+  margin-bottom: 0 !important;
+}
+
+.row .col.l3 {
+  height: 100%;
+  width: 25%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  padding-bottom: 80%;
+  color: white;
+  background: #ff0084; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #33001b,
+    #ff0084
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #33001b,
+    #ff0084
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.item {
+  display: block;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+/* MAIN CONTENT */
+
+p {
+  color: darkgray;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.addd {
+  margin: 0 1rem;
+  padding-top: 0.4rem;
+  color: black !important;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: yellow !important;
+  color: black !important;
+}
+
+.container {
+  text-align: center;
+  padding: 7% 15%;
+  width: 90% !important;
+}
+
+.row .col.l9 {
+  padding: 0;
+}
+
+.nav-wrapper ul li a {
+  text-decoration: none;
+  color: whitesmoke !important;
+}
+
+.material-icons {
+  color: whitesmoke;
+}
+
+.nav-wrapper {
+  background: #ff0084; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #33001b,
+    #ff0084
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #33001b,
+    #ff0084
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.row .col.l9 #dropdown1 li a {
+  color: teal !important;
+}
+
+/* FORNULAIRE */
+
+.row .col.s7 {
+  width: 100% !important;
+  text-align: left;
+}
+
+.foto {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: black !important;
+}
+
+.card_items {
+  color: black;
+  text-align: left !important;
+}
+
+.card {
+  margin: 1rem 0 0 0 !important;
+  position: relative;
+  display: inline-block;
+}
+
+.card:hover {
+  background-color: #fbff00 !important;
+  color: #000000 !important;
+}
+
+.card-content {
+  margin-top: 0.7rem;
+}
+
+.card-content p {
+  font-size: 1.1em;
+}
+
+#form {
+  padding: 0% 15%;
+}
+
+#ajouter {
+  margin-right: 3rem;
+}
+
+#vip {
+  margin-right: 6rem;
+}
+
+#cardd {
+  padding: 1rem 19rem 1rem 1rem;
+  margin: 0;
+  font-size: 0.7rem;
+  display: inline-block;
+}
+
+/* emploi du temps */
+
+#jours {
+  color: tomato;
+}
+
+#table.centered tbody tr td {
+  padding: 0 2rem;
+}
+
+/* rapports */
+
+.produit {
+  -webkit-box-shadow: 2px 2px 15px 5px #000000;
+  box-shadow: 2px 2px 15px 5px #000000;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+textarea {
+  margin-bottom: 5rem !important;
+}
+
+.jour {
+  color: red;
+}
+
+#regime {
+  -webkit-box-shadow: 0px 0px 6px 3px #000000;
+  box-shadow: 0px 0px 6px 3px #000000;
+}
+
+/* PROGRESS */
+
+.chart {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.1) 2%,
+    rgba(0, 0, 0, 0) 2%
+  );
+  background-size: 100% 50px;
+  background-position: left top;
+}
+
+.chart li {
+  position: relative;
+  display: table-cell;
+  vertical-align: bottom;
+  height: 500px;
+}
+
+.chart span {
+  margin: 0 1em;
+  display: block;
+  background: #007991;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #78ffd6, #007991);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #78ffd6, #007991);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  animation: draw 1s ease-in-out;
+}
+
+.chart span:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  padding: 5px 1em 0;
+  display: block;
+  text-align: center;
+  content: attr(title);
+  word-wrap: break-word;
+}
+
+@keyframes draw {
+  0% {
+    height: 0;
+  }
+}
+
+/* pricing table */
+
+.mauve {
+  background: #ad5389;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3c1053, #ad5389);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3c1053, #ad5389);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.price__ {
+  color: #fbff00;
+  margin-bottom: 5rem !important;
+}
+
+#price p {
+  text-align: center;
+  color: aqua;
+}
+
+#price .card {
+  -webkit-box-shadow: 0px 0px 6px 3px #000000;
+  box-shadow: 0px 0px 6px 3px #000000;
+}
+
+body {
+  background: #232526;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

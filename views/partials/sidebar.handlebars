@@ -1,0 +1,31 @@
+{{#if user}}
+<h4>Anti-stress Gym</h3>
+    <hr>
+    <br>
+    <br>
+    <div class="row valign-wrapper" style="padding-bottom: 3rem;">
+        <div class="col s2" style=" margin-left:1rem; ">
+            <img src="../layouts/images/admin.jpg" alt="me" class="circle responsive-img">
+            <!-- notice the "circle" class -->
+        </div>
+        <div class="col s10">
+            <span class="white-text" style="font-size: 1rem;">
+                {{user.username}}
+            </span>
+        </div>
+    </div>
+    <div>
+        <a href="/"><i class="material-icons">person</i>Mon compte </a>
+        <a href="../membres"><i class="material-icons">fitness_center</i>Mon programme d'entainement</a>
+        <a href="../emplois"><i class="material-icons">date_range</i>Mon regime alimentaire</a>
+        <a href="../achats"><i class="material-icons">trending_up</i>Mon progress </a>
+        <a href="../payer"><i class="material-icons">payment</i>Paiement </a>
+
+
+    </div>
+
+    {{else}}
+    <h4 style="  transform: rotate(-90deg); margin-top:16rem; font-size: 4rem;">Anti-stress Gym</h3>
+
+
+        {{/if}}

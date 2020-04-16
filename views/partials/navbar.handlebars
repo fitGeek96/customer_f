@@ -1,0 +1,33 @@
+{{#if user}}
+<!-- Dropdown Structure -->
+
+<nav>
+    <div class="nav-wrapper">
+
+        <ul class="right hide-on-med-and-down">
+
+
+            <li><a href="/logout">Se déconnecter</a></li>
+            <li><a href="/">Acceuil</a></li>
+            <!-- Dropdown Trigger -->
+
+        </ul>
+    </div>
+</nav>
+
+{{else}}
+<!-- Dropdown Structure -->
+
+<nav>
+    <div class="nav-wrapper">
+
+        <ul class=" hide-on-med-and-down">
+
+            <li><a href="/users/login">S'identifier</a></li>
+            <li><a href="/users/register">S'inscrire</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+{{/if}}
